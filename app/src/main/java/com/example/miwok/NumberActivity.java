@@ -61,7 +61,6 @@ public class NumberActivity extends AppCompatActivity {
         //ArrayAdapter<Word> adapter  = new ArrayAdapter<Word>(this,R.layout.list_item, words);
         WordAdapter itemsAdapter = new WordAdapter(this,words);
 
-
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // activity_numbers.xml layout file.
